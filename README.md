@@ -25,3 +25,17 @@ Edit your `index.html` file to include the elements:
     frameborder="0" allowfullscreen></iframe>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Cricket Blog</title>
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+
+    <!-- Image -->
+    <h2>Cricket Highlight</h2>
+    <img src="https://images.icc-cricket.com/image/upload/t_ratio16_9-size40/prd/qmcv5n2zxeiwngdjmdyi" alt="Cricket Image" width="600">
+</body>
+</html>
