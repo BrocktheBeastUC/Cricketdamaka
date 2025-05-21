@@ -5,11 +5,10 @@ Here’s how to *add images, links, and videos* to your GitHub-hosted site:
 1. *Update your `index.html`*
 Edit your `index.html` file to include the elements:
 
-```html
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My GitHub Site</title>
+    <title>Welcome Cricket Fans</title>
 </head>
 <body>
     <h1>Welcome to My Website</h1>
@@ -18,7 +17,7 @@ Edit your `index.html` file to include the elements:
     <p><a href="https://example.com" target="_blank">Visit Example Site</a></p>
 
     <!-- Image -->
-    <img src="https://via.placeholder.com/400" alt="Sample Image" width="400">
+    <img src="https://images.icc-cricket.com/image/upload/t_ratio16_9-size40/prd/qmcv5n2zxeiwngdjmdyi" alt="Sample Image" width="400">
 
     <!-- YouTube Video -->
     <h2>My Favorite Video</h2>
