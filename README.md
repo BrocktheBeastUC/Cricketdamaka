@@ -9,7 +9,7 @@ Everyone loves cricket
     <title>ICC CRICKET</title>
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
+    <h1>ICC CRICKET</h1>
 
     <!-- Link -->
     <p><a href="https://example.com" target="_blank">Visit Example Site</a></p>
