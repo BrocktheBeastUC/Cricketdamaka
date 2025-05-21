@@ -6,7 +6,7 @@ Everyone loves cricket
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My GitHub Site</title>
+    <title>ICC CRICKET</title>
 </head>
 <body>
     <h1>Welcome to My Website</h1>
