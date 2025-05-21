@@ -1,8 +1,6 @@
 # Cricketdamaka
 Everyone loves cricket
 Here’s how to *add images, links, and videos* to your GitHub-hosted site:
-
-
 <!DOCTYPE html>
 <html>
 <head>
