@@ -2,40 +2,36 @@
 Everyone loves cricket
 Here’s how to *add images, links, and videos* to your GitHub-hosted site:
 
-1. *Update your `index.html`*
-Edit your `index.html` file to include the elements:
 
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Welcome Cricket Fans</title>
+    <title>My Blog</title>
+    <style>
+        body { font-family: Arial; margin: 40px; background: #f0f0f0; }
+        .post { background: white; padding: 20px; margin-bottom: 20px; border-radius: 5px; box-shadow: 0 0 10px #ccc; }
+        .post h2 { margin-top: 0; }
+        .post p { color: #333; }
+        .comment-box { margin-top: 20px; }
+        input, textarea { width: 100%; padding: 10px; margin-top: 10px; }
+        button { margin-top: 10px; padding: 10px 20px; }
+        img { max-width: 100%; border-radius: 5px; margin-top: 10px; }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
+    <h1>My Personal Blog</h1>
 
-    <!-- Link -->
-    <p><a href="https://example.com" target="_blank">Visit Example Site</a></p>
+    <div class="post">
+        <h2>My First Blog Post</h2>
+        <p><em>May 21, 2025</em></p>
+        <img src="https://via.placeholder.com/600x300" alt="Blog Image">
+        <p>This is my first post! I'm excited to start blogging and sharing thoughts.</p>
+        <a href="#">Read more...</a>
 
-    <!-- Image -->
-    <img src="https://images.icc-cricket.com/image/upload/t_ratio16_9-size40/prd/qmcv5n2zxeiwngdjmdyi" alt="Sample Image" width="400">
-
-    <!-- YouTube Video -->
-    <h2>My Favorite Video</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" 
-    frameborder="0" allowfullscreen></iframe>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html>
-<head>
-    <title>My Cricket Blog</title>
-</head>
-<body>
-    <h1>Welcome to My Website</h1>
-
-    <!-- Image -->
-    <h2>Cricket Highlight</h2>
-    <img src="https://images.icc-cricket.com/image/upload/t_ratio16_9-size40/prd/qmcv5n2zxeiwngdjmdyi" alt="Cricket Image" width="600">
-</body>
-</html>
+        <div class="comment-box">
+            <h3>Leave a Comment</h3>
+            <input type="text" placeholder="Your name">
+            <textarea rows="4" placeholder="Your comment"></textarea>
+            <button>Submit</button>
+        </div>
+    </div>
